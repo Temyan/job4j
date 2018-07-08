@@ -1,3 +1,3 @@
-# Репозиторий Артем Майоров
-я прохожу обучение по курсу Job4j. Планирую его пройти к концу 2018 года.
-Ниже находятся наиболее интересные проекты, которые я реализовывал во время обучения 
+# Repository of Artem Mayorov
+I'm going through the Job4j course. I plan to pass it by the end of 2018.
+Below are the most interesting projects that I realized during the training!!!
