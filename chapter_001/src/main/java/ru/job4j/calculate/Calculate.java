@@ -2,7 +2,7 @@ package ru.job4j.calculate;
 /** 
 *Calculate.
  *
- * @author Artem Maiorov.
+ * @author Artem M.
  * @version $Id$.
  * @since 0.1
 */
