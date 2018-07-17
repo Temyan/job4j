@@ -1,22 +1,26 @@
 package ru.job4j.calculate;
 /** 
-Выводит сообщение строку на экран.
+*Calculate.
+ *
+ * @author Artem M.
+ * @version $Id$.
+ * @since 0.1
 */
 public class Calculate {
     /**
-    @param args - args.
-    @return string on the screen.
+     * Main.
+     * @param args -args.
     */
     public static void main(String[] args) {
         System.out.println("Hellow World");
     }
-    
+
     /**
-* Method echo.
-* @param name Your name.
-* @return Echo plus your name.
-*/
-public String echo(String name) {
-    return "Echo, echo, echo : " + name;
-  }
+     * Method echo.
+     * @param name Your name.
+     * @return Echo plus your name.
+     */
+    public String echo(String name) {
+        return "Echo, echo, echo : " + name;
+    }
 }
