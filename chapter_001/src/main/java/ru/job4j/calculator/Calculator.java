@@ -36,9 +36,7 @@ public class Calculator {
      this.result =  first / second;
     }
 
-    public int getResult() {
-        return this.result;
-    }
+
 
     /**
      *Метод для вычитания двух чисел
@@ -49,9 +47,7 @@ public class Calculator {
         this.result = first - second;
     }
 
-    public int getResult() {
-        return this.result;
-    }
+
 
     /**
      *Метод для умножения двух чисел
@@ -61,9 +57,6 @@ public class Calculator {
     public void multiple(int first, int second) {
         this.result = first * second;
     }
-    public int getResult() {
-        return this.result;
-    }
+
 }
 
-//После каждого примера (сложенения, вычитания и .т.д...) писать одинаковый код ?

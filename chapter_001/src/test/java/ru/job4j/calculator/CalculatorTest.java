@@ -9,33 +9,33 @@ public class CalculatorTest {
     public void whenAddOneThenTwo() {
         Calculator c;
         Calculator calc = new Calculator();
-        calc.add(1D, 1D);
+        calc.add(5, 5);
         double result = calc.getResult();
-        double expected = 2D;
-        assertThat(result, is(expected));
+        double expected = 10;
+        assertThat(result, is(10.0));
     }
 
     @Test
-    public void name() {
+    public void whenDivOneThenTwo() {
     Calculator calc = new Calculator();
     calc.div(6, 3);
     double result = calc.getResult();
-    assertThat(result, is(18D));
+    assertThat(result, is(2.0));
     }
 
     @Test
-    public void name () {
+    public void whenSubOneThenTwo () {
         Calculator calc = new Calculator();
-        calc.div(12, 2);
-        int result = calc.getResult();
-        assertThat(result, is(value 18D));
+        calc.subtract(12, 2);
+        double result = calc.getResult();
+        assertThat(result, is(10.0));
     }
 
     @Test
-    public void name() {
+    public void whenMultOneThenTwo() {
         Calculator calc = new Calculator();
-        calc.div(2, 2);
-        int result = calc.getResult();
-        assertThat(result, is(value 18D));
+        calc.multiple(2, 2);
+        double result = calc.getResult();
+        assertThat(result, is(4.0));
     }
 }
