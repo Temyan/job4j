@@ -24,13 +24,13 @@ public class CalculatorTest {
     }
 
     @Test
-    public void whenSubOneThenTwo () {
+    public void whenSubOneThenTwo() {
         Calculator calc = new Calculator();
         calc.subtract(12, 2);
         double result = calc.getResult();
         assertThat(result, is(10.0));
     }
-
+//т.е что
     @Test
     public void whenMultOneThenTwo() {
         Calculator calc = new Calculator();
