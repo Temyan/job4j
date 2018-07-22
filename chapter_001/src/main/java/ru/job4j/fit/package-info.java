@@ -1,10 +1,11 @@
-package ru.job4j.conventer;
+package ru.job4j.fit;
+
 /**
- *Package for converter task
+ *Package for fit task
  *
  *@author Artem Maiorov (mailto:maartel@yandex.ru)
  *@version $id$
  *@since 0.1
  */
 
-
+package ru.job4j.calculate;
