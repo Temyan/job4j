@@ -6,6 +6,5 @@ public class Max {
     int resultMax , k;
     k = 1;
     resultMax = k > 0 ? int first + int second : 0;
-  return resultMax;
-
+    return resultMax;
 }
