@@ -54,7 +54,7 @@ package ru.job4j.condition;
          * @return
          */
         private boolean exist(double ab, double ac, double bc) {
-            if(ab || ac || bc  < 0) {
+            if((ab + ac) < bc) {
             return false;
         }
     }
