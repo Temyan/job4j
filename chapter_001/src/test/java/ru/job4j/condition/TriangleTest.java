@@ -13,7 +13,7 @@ public class TriangleTest {
         Point c = new Point(2, 0);
         // Создаем объект треугольник и передаем в него объекты точек.
         Triangle triangle = new Triangle(a, b, c);
-        // Вычисляем площадь.
+        // Вычисляем площадь
         double result = triangle.area();
         // Задаем ожидаемый результат.
         double expected = 2D;
