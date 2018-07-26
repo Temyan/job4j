@@ -8,7 +8,6 @@ import static org.junit.Assert.assertThat;
  * @author Artem M
  * @version $Id$
  * @since 0.1
- *
  */
 public class DummyBotTest {
     @Test
