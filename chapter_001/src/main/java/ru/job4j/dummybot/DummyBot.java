@@ -1,4 +1,4 @@
-package ru.job4j.dummyBot;
+package ru.job4j.dummybot;
 
 /**
  * @author Artem M.

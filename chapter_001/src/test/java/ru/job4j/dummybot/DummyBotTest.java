@@ -1,4 +1,4 @@
-package ru.job4j.dummyBot;
+package ru.job4j.dummybot;
 
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
