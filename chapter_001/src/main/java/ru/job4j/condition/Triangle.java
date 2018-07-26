@@ -37,7 +37,7 @@ package ru.job4j.condition;
         double bc = this.b.distanceTo(this.c);
         double p = this.period(ab, ac, bc);
 
-        if(this.exist(ab, ac, bc)) {
+        if (this.exist(ab, ac, bc)) {
             //написать формулу для расчета площади треугольника
             rsl = Math.sqrt(p * (p - ab) * (p - ac) * (p - bc));
         }
@@ -54,10 +54,10 @@ package ru.job4j.condition;
          * @return
          */
         private boolean exist(double ab, double ac, double bc) {
-            if((ab + ac) < bc) && ((ab + bc) < ac) && ((ac + bc) < ab){
-            return false;
+            return ((ab + ac) < bc) && ((ab + bc) < ac) && ((ac + bc) < ab);
+
             }
-            return exist(double ab, double ac, double bc);
+
 
     }
-}
+
