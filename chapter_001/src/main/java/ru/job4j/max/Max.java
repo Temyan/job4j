@@ -8,7 +8,7 @@ public class Max {
     }
     public int max(int first, int second, int third) {
 
-        int temp = this.max(max(first, second), max(first, second));
+        int temp = this.max(max(first, second), third);
 
         return temp;
     }
