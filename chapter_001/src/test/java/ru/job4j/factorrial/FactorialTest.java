@@ -1,5 +1,6 @@
 package ru.job4j.factorrial;
 
+
 import ru.job4j.factorial.Factorial;
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
