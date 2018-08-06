@@ -5,12 +5,10 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class CounterTest {
-    @Test
-    public void whenAddOnePlusOneThenTwo() {
-        Counter calc = new Counter();
-        calc.add(1D, 1D);
-        int result = calc.getResult();
-        int expected = 2D;
-        assertThat(result, is(expected));
-    }
+   @Test
+   public void whenTakeNameThenTreeEchoPlusName() {
+       Counter calc = new Counter();
+       int result = calc.add(1, 10);
+       assertThat(result, is(30));
+   }
 }
