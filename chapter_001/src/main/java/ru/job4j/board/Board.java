@@ -6,13 +6,13 @@ public class Board {
 
         String ln = System.lineSeparator();
 
-        for (int i = 0; i <= height; i++) { // отвечает за высоту доски
+        for (int i = 0; i < height; i++) { // отвечает за высоту доски
 
-            for (int j = 0; j <= width; j++) {
+            for (int j = 0; j < width; j++) {
 
-                if (width % 2 == 0 || height % 2 == 0) {
+                if ((i + j) % 2 == 0) {
 
-                    screen.append("X");
+                    screen.append("x");
 
                 } else {
 
