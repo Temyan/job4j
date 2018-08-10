@@ -1,5 +1,8 @@
 package ru.job4j.loop;
 
+
+import java.util.function.BiPredicate;
+
 public class Paint {
     public String rightTrl(int height) {
         return this.loopBy(

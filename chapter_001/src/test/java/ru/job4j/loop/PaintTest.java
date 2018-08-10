@@ -4,7 +4,6 @@ import org.junit.Test;
 import java.util.StringJoiner;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
-import java.util.function.BiPredicate;
 
 public class PaintTest {
     @Test
@@ -26,7 +25,7 @@ public class PaintTest {
     @Test
     public void whenPyramid4Left() {
         Paint paint = new Paint();
-        String rst = paint.leftTrl(6);
+        String rst = paint.leftTrl(4);
         System.out.println(rst);
         assertThat(rst,
                 is(
